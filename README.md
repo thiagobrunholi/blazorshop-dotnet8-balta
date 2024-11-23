@@ -1,2 +1,2 @@
-# blazorshop-dotnet8-balta
-Repositório do projeto BlazorShop - Curso Fundamentos do Blazor com .NET 8
+# Blazor com .NET 8 na Prática
+### Repositório do projeto BlazorShop - Curso Fundamentos do Blazor com .NET 8
