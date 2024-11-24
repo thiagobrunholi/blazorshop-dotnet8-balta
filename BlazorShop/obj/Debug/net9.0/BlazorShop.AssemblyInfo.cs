@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorShop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+441aec7c19a9dc87a2f5ef2627eb1a941c65a5df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90694ccf3a00963016c1a9db631802923404b167")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorShop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorShop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

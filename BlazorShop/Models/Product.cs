@@ -8,8 +8,8 @@ public class Product
     public int Id { get; set; }
     
     [Required(ErrorMessage = "Informe o título")]
-    [MinLength(3, ErrorMessage = "O titúlo deve ter no mínimo 3 caracteres")]
-    [MaxLength(120, ErrorMessage = "O título deve ter no máximo 120 caracteres")]
+    [MinLength(3, ErrorMessage = "O Produto deve ter no mínimo 3 caracteres")]
+    [MaxLength(120, ErrorMessage = "O Produto deve ter no máximo 120 caracteres")]
     public string Title { get; set; } = String.Empty;
     
     public string? Description { get; set; }
