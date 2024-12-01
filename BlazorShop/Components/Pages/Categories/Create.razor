@@ -1,5 +1,5 @@
 @page "/categories/create"
-@using BlazorShop.Models
+@inject ApplicationDbContext Context
 @rendermode InteractiveServer
 
 <h1>Nova Categoria</h1>
@@ -26,9 +26,10 @@
 
     }
 
-    public Task OnValidSubmitAsync()
+    public async Task OnValidSubmitAsync()
     {
-        
+        await Context.Categories.AddAsync(Model);
+        await Context.SaveChangesAsync();
     }
 
 }
