@@ -3,7 +3,7 @@
 @rendermode InteractiveServer
 
 <h1>Nova Categoria</h1>
-<EditForm Model="@Model">
+<EditForm Model="@Model" OnValidSubmit="OnValidSubmitAsync">
     <DataAnnotationsValidator />
     <ValidationSummary />
     
@@ -24,6 +24,11 @@
     protected override void OnInitialized()
     {
 
+    }
+
+    public Task OnValidSubmitAsync()
+    {
+        
     }
 
 }
